@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    position: relative;
+}
+#navbar ::before
+{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 106px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+.logo{
+    width: 116px;
+    height: 106px;
+    /* border: 3px solid red; */
+}
+.logo img{
+    width: 116px;
+    height: 106px;
+}
+#navbar ul{
+    display: flex;
+
+}
+#navbar ul li{
+    list-style: none;
+    margin: 31px 16px;
+    padding: 10px 6px;
+    width: 105px;
+   
+}
+#navbar ul li a{
+        text-decoration: none;
+        color: white;
+        border-radius:9px;    
+
+
+
+}
+#navbar ul li a:hover{
+    background-color:rgb(241, 227, 23);
+    color: black;
+    border: 2px solid rgb(241, 227, 23);
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 458px;
+    height: 317px;
+    margin: 18px 182px;
+    padding: 10px 10px;
+    
+    /* border: 3px solid; */
+
+}
+.home ::before{
+    content: "";
+    background:url('/primary.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 930px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    /* opacity: 0.1; */
+}
+.h1-primary{
+    font-size: 2.5rem;
+    color: yellowgreen;
+}
+.home p{
+    font-family: 'Grenze Gotisch', cursive;
+    text-align: center;
+    color:silver;
+}
+.btn{
+    width: 92px;
+    padding: 8px;
+    border-radius: 9px;
+    margin: 15px;
+    border: none;
+    background-color: gold;
+}
+.secoundry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+    
+}
+.secoundry ::before{
+    content: "";
+    background:url('mid.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+
+}
+.box{
+    display: flex;
+    border: 3px solid red;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 7px;
+    margin: 5px 10px ;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+    
+
+
+
+
